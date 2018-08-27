@@ -11,7 +11,6 @@ class CheckoutController < ApplicationController
     render json: checkout, status: :ok
   rescue ActiveResource::ResourceNotFound
     render json: { error: "Checkout was not found" }, status: :not_found
-
   end
 
   private
