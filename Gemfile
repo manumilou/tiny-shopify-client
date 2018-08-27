@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 #
 # Shopify API gem
-gem 'shopify_api'
+gem 'shopify_api', '4.12.0'
 
 gem 'pry'
 

@@ -1,0 +1,257 @@
+[
+  {
+    "op": "remove",
+    "path": "/customer"
+  },
+  {
+    "op": "remove",
+    "path": "/shipping_address/name"
+  },
+  {
+    "op": "remove",
+    "path": "/shipping_address/longitude"
+  },
+  {
+    "op": "remove",
+    "path": "/shipping_address/latitude"
+  },
+  {
+    "op": "add",
+    "path": "/shipping_address/id",
+    "value": 1
+  },
+  {
+    "op": "replace",
+    "path": "/source_name",
+    "value": "checkout_next"
+  },
+  {
+    "op": "add",
+    "path": "/tax_lines/0/compare_at",
+    "value": 0.05
+  },
+  {
+    "op": "remove",
+    "path": "/abandoned_checkout_url"
+  },
+  {
+    "op": "remove",
+    "path": "/discount_codes"
+  },
+  {
+    "op": "remove",
+    "path": "/source"
+  },
+  {
+    "op": "remove",
+    "path": "/line_items/0/tax_lines"
+  },
+  {
+    "op": "replace",
+    "path": "/line_items/0/properties",
+    "value": {}
+  },
+  {
+    "op": "remove",
+    "path": "/line_items/0/origin_location_id"
+  },
+  {
+    "op": "remove",
+    "path": "/line_items/0/destination_location_id"
+  },
+  {
+    "op": "add",
+    "path": "/line_items/0/id",
+    "value": "ed04bc04e57b6617c31156e22768119c"
+  },
+  {
+    "op": "add",
+    "path": "/line_items/0/image_url",
+    "value": "//cdn.myshopify.io/s/assets/checkout/product-blank-98d4187c2152136e9fb0587a99dfcce6f6873f3a9f21ea9135ed7f495296090f.png"
+  },
+  {
+    "op": "remove",
+    "path": "/closed_at"
+  },
+  {
+    "op": "remove",
+    "path": "/total_weight"
+  },
+  {
+    "op": "remove",
+    "path": "/total_discounts"
+  },
+  {
+    "op": "remove",
+    "path": "/shipping_lines"
+  },
+  {
+    "op": "remove",
+    "path": "/referring_site"
+  },
+  {
+    "op": "replace",
+    "path": "/note",
+    "value": ""
+  },
+  {
+    "op": "remove",
+    "path": "/landing_site"
+  },
+  {
+    "op": "remove",
+    "path": "/buyer_accepts_marketing"
+  },
+  {
+    "op": "remove",
+    "path": "/gateway"
+  },
+  {
+    "op": "remove",
+    "path": "/cart_token"
+  },
+  {
+    "op": "remove",
+    "path": "/id"
+  },
+  {
+    "op": "add",
+    "path": "/clone_url",
+    "value": "https://shop1.myshopify.io/1/checkouts/3768e287c474aa3ba765a546299835aa/clone"
+  },
+  {
+    "op": "add",
+    "path": "/presentment_currency",
+    "value": "CAD"
+  },
+  {
+    "op": "add",
+    "path": "/customer_id",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/discount_code",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/legal_notice_url",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/order_id",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/order_status_url",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/order",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/payment_due",
+    "value": "66.14"
+  },
+  {
+    "op": "add",
+    "path": "/payment_url",
+    "value": "https://app.myshopify.io/cardserver/sessions"
+  },
+  {
+    "op": "add",
+    "path": "/payments",
+    "value": []
+  },
+  {
+    "op": "add",
+    "path": "/shopify_payments_account_id",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/privacy_policy_url",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/refund_policy_url",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/requires_shipping",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/reservation_time_left",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/reservation_time",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/shipping_policy_url",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/tax_exempt",
+    "value": false
+  },
+  {
+    "op": "add",
+    "path": "/terms_of_service_url",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/web_url",
+    "value": "https://shop1.myshopify.io/1/checkouts/3768e287c474aa3ba765a546299835aa?key=5702dac9138a721b45ee9f7ccbc90fc2"
+  },
+  {
+    "op": "add",
+    "path": "/gift_cards",
+    "value": []
+  },
+  {
+    "op": "add",
+    "path": "/tax_manipulations",
+    "value": []
+  },
+  {
+    "op": "add",
+    "path": "/shipping_line",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/shipping_rate",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/credit_card",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/billing_address",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/applied_discount",
+    "value": null
+  }
+]
